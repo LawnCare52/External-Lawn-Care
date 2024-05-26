@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Lawn Mowing Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8f5;
+        }
+        header {
+            background: url('lawn-background.jpg') no-repeat center center/cover;
+            padding: 50px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #3a7f3a;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .cta {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .cta input {
+            padding: 10px;
+            font-size: 1em;
+            margin-right: 10px;
+        }
+        .cta button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #3a7f3a;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Premium Lawn Mowing Services</h1>
+        <p>Affordable, Reliable, and Efficient Lawn Care</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <section>
+        <div class="cta">
+            <input type="text" placeholder="Enter your phone number">
+            <button>Call Us Now!</button>
+        </div>
+        <div>
+            <h2>Our Services</h2>
+            <p>We offer a wide range of lawn mowing services to keep your lawn looking pristine all year round.</p>
+        </div>
+        <div>
+            <h2>Customer Testimonials</h2>
+            <p>Read what our satisfied customers have to say about our exceptional lawn care services.</p>
+        </div>
+        <div>
+            <h2>About Us</h2>
+            <p>Learn more about our team of professional landscapers dedicated to providing the best lawn care service.</p>
+        </div>
+    </section>
+</body>
+</html>
